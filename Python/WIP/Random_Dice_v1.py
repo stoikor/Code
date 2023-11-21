@@ -9,7 +9,7 @@ d6 = [1,2,3,4,5,6]
 d4 = [1,2,3,4]
 
 if len(argv) >=2:
-    dice = argv[1]
+    dice = argv[1].lower()
 
     if dice == "d20":
         print(random.choice(d20))
